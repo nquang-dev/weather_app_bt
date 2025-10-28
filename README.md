@@ -21,14 +21,6 @@ WeatherNow là ứng dụng Flutter cho phép bạn:
 - **Google Fonts** - Sử dụng font chữ Google Fonts cho giao diện
 - **Dartz 0.10.1** - Lập trình hàm trong Dart
 
-## Clean Architecture
-
-Ứng dụng được phát triển theo kiến trúc Clean Architecture:
-
-- **Domain Layer** - Chứa entities, use cases và repository interfaces
-- **Data Layer** - Cài đặt repository, datasources và models
-- **Presentation Layer** - UI, widgets, screens và Riverpod providers
-
 ## Tính Năng Chính
 
 - Tự động phát hiện vị trí người dùng
@@ -38,16 +30,4 @@ WeatherNow là ứng dụng Flutter cho phép bạn:
 - Hỗ trợ chế độ tối (Dark Mode)
 - Giao diện đa ngôn ngữ (Tiếng Việt)
 
-## Cách Sử Dụng
 
-1. Clone repository
-2. Chạy `flutter pub get` để cài đặt dependencies
-3. Cấu hình API key của OpenWeatherMap trong file `lib/data/datasources/weather_remote_datasource.dart`
-4. Chạy `flutter run` để khởi động ứng dụng
-
-## Yêu Cầu Hệ Thống
-
-- Android 5.0 trở lên hoặc iOS 11.0 trở lên
-- Flutter SDK 3.9.2 trở lên
-- Dart SDK 3.9.2 trở lên
-- Quyền truy cập vị trí trên thiết bị
